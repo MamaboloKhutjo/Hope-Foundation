@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOPE FOUNDATION | Contact Us</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/Hope Logo.png" alt="Hope Foundation">
+            <h1>Hope Foundation</h1>
+        </div>
+
+        <div class="hamburger" onclick="toggleNavbar()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div class="navbar">
+            <a href="index.html">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <a href="About_us.html">
+                <i class="fas fa-info-circle"></i> About Us
+            </a>
+            <a href="Programs_And_Services.html">
+                <i class="fas fa-hands-helping"></i> Programs and Services
+            </a>
+            <a href="FAQ.html">
+                <i class="fas fa-question-circle"></i> FAQ
+            </a>
+            <a href="Contact_Us.html">
+                <i class="fas fa-envelope"></i> Contact Us
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h1>Get In Touch With Us</h1>
+        <p>We would love to hear from you! Whether you have questions, need support, or want to get involved with Hope
+            Foundation, feel free to reach out using the information below.</p>
+
+        <h3>Contact Information:</h3>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:info@hopefoundation.org">info@hopefoundation.org</a></li>
+            <li><strong>Phone:</strong> +27 12-345-6789</li>
+            <li><strong>Office Address:</strong> 123 Hope Street, Refuge City, RC 12345</li>
+            <li><strong>Hours of Operation:</strong> Monday - Friday, 9:00 AM - 5:00 PM</li>
+        </ul>
+
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form onsubmit="validateForm(); return false;">
+                <div>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <p id="name-error" class="error-message"></p>
+                </div>
+                <div>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <p id="email-error" class="error-message"></p>
+                </div>
+                <div>
+                    <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                    <p id="message-error" class="error-message"></p>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <h3>Visit Our Social Media:</h3>
+
+        <div class="socials">
+        <ul>
+            <li>
+                <a href="https://facebook.com/login">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/facebook-new.png" alt="facebook-new"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/login">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/twitter--v1.png" alt="twitter--v1"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://instagram.com/login">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footernav">
+            <a href="index.html">Home</a>
+            <a href="About_us.html">About Us</a>
+            <a href="Programs_And_Services.html">Programs and Services</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="Contact_Us.html">Contact Us</a>
+        </div>
+
+
+
+        <br>
+        <p>Email: <a href="mailto:st10438214@rcconnect.edu.za">st10438214@rcconnect.edu.za</a></p>
+        <br>
+        <p>Copyright &copy; 2024 Hope Foundation. All Rights Reserved</p>
+
+
+    </footer>
+    
+    <script src="script.js"></script> 
+</body>
+
+</html>
